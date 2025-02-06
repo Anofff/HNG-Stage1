@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
-from utils import classify_number
-from models import NumberResponse, ErrorResponse
-from services import get_fun_fact
+from app.utils import classify_number
+from app.models import NumberResponse, ErrorResponse
+from app.services import get_fun_fact
 
 app = FastAPI()
 
