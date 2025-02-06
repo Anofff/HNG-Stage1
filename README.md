@@ -85,18 +85,6 @@ You can deploy this API on **Render, Vercel, or Heroku**.
    docker run -p 8000:8000 number-api
    ```
 
-## Testing
-Run tests using:
-```bash
-pytest tests/
-```
-
-## Tech Stack
-- **FastAPI** - Web framework
-- **Uvicorn** - ASGI server
-- **httpx** - HTTP client for external API calls
-
-
 ## Author
 [Caaleb Anoff](https://github.com/Anofff)
 
